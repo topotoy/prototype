@@ -29,6 +29,34 @@
   <meta name="twitter:image" content="https://topotoy.com/prototype/cover.jpg">
 
   <!-- <link rel="stylesheet" crossorigin href="./assets/css.css"> -->
+  <style>
+    /* Set the background to black */
+    body {
+      margin: 0;
+      height: 100vh;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: Arial, sans-serif;
+      overflow: hidden; /* Prevent scrollbars */
+    }
+
+    /* Style the canvas */
+    canvas {
+      width: 800px;
+      height: 600px;
+      background-color: #333; /* Optional: give canvas a dark background */
+      border: 2px solid white; /* Optional: add a white border around the canvas */
+    }
+
+    /* Optional: Styling for other page elements */
+    .container {
+      text-align: center;
+      color: white;
+    }
+  </style>
 </head>
 
 <body>
@@ -66,6 +94,6 @@
   function webex_in(op, d0, d1, d2) { Module.ccall("webex_in", null, ["string", "string", "string", "string"], [op, d0, d1, d2]); }
   function webex_out(op, d0, d1, d2) { webex_is_alive = true; }
 </script>
-<script src="./prototype-58704.js" type="text/javascript"></script>
+<script src="./prototype-58706.js" type="text/javascript"></script>
 
 </html>
